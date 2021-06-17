@@ -1,5 +1,5 @@
 # depslib dependency file v1.0
-1623926657 source:d:\algo\c\td_16_06_2021\td_file\main.c
+1623937050 source:d:\algo\c\td_16_06_2021\td_file\main.c
 	<stdio.h>
 	<stdlib.h>
 	<SDL2/SDL.h>
