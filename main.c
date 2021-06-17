@@ -1,5 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <SDL2/SDL.h>
+#include <SDL2/SDL_image.h>
+
 
 
 typedef struct Element Element;
@@ -26,7 +29,7 @@ void retourneTaille(File* file);
 void consultPrems(File *file);
 void consultdernier(File *file);
 
-int main()
+int main(int argc, char *argv[])
 {
     File *file = NULL;
     file = (File*)malloc(sizeof(File));
